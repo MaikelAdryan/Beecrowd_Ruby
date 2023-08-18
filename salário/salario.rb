@@ -1,15 +1,16 @@
 class Emplyee
   def initialize id_emplyee, hours_worked, value_per_hour
-    @id_emplyee = id_emplyee,
-    @hours_worked = hours_worked,
+    @id_emplyee = id_emplyee
+    @hours_worked = hours_worked
     @value_per_hour = value_per_hour
   end
-  def calculate_salary hours_worked, value_per_hour
-    hours_worked * value_per_hour
+
+  def calculate_salary
+    @hours_worked * @value_per_hour
   end
 
   def to_s
-    puts "NUMBER = #{@id_emplyee}\nSALARY = U$ #{format("%.2f", calculate_salary(@hours_worked, @value_per_hour))}"
+    puts "NUMBER = #{@id_emplyee}\nSALARY = U$ #{format("%.2f", calculate_salary)}"
   end
 end
 
