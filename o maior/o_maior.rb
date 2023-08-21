@@ -1,4 +1,4 @@
-class Higher_Number
+class Number
   def initialize numbers
     @numbers = numbers
   end
@@ -12,4 +12,4 @@ class Higher_Number
 end
 
 input = gets.chomp
-Higher_Number.new(input).which_is_the_bigger?
+Number.new(input).which_is_the_bigger?
