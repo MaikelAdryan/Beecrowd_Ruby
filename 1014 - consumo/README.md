@@ -1,3 +1,8 @@
+beecrowd | 1014
+# Consumo
+Adaptado por Neilor Tonin, URI  Brasil
+
+Timelimit: 1
 Calcule o consumo médio de um automóvel sendo fornecidos a distância total percorrida (em Km) e o total de combustível gasto (em litros).
 
 ## Entrada

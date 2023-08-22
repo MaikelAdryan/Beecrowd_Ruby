@@ -1,3 +1,8 @@
+beecrowd | 1003
+# Soma Simples
+Adaptado por Neilor Tonin, URI  Brasil
+
+Timelimit: 1
 Leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas e atribua à variável SOMA. A seguir escrever o valor desta variável.
 
 ## Entrada
