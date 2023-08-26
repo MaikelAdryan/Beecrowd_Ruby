@@ -1,0 +1,1 @@
+(1..gets.chomp.to_i).map{|number| puts number if number % 2 != 0}
