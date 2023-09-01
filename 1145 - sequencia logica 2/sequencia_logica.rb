@@ -11,9 +11,3 @@ Array(1..y).map{|number|
     index = 0
   end
 }
-
-
-# .map{|numero|
-
-#   p numero
-# }
