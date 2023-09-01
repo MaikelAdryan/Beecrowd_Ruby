@@ -1,23 +1,13 @@
 numbers = 0
-x = gets.to_i
-y = gets.to_i
-Array(x..y).map{|number|
-  numbers += number if number % 13 != 0
-}
+x = gets.chomp.to_i
+y = gets.chomp.to_i
+if x < y
+  Array(x..y).map{|number|
+    numbers += number if number % 13 != 0
+  }
+else
+  Array(y..x).each{|number|
+    numbers += number if number % 13 != 0
+  }
+end
 puts numbers
-
-#     if number_a > number_b
-#       numbers = Array(0..number_a)
-#       numbers.each{|number|
-#         return puts "Sao Multiplos" if number_b * number == number_a
-#       }
-#     else
-#       numbers = Array(0..number_b)
-#       numbers.each{|number|
-#         return puts "Sao Multiplos" if number_a * number == number_b
-#       }
-#     end
-#     return puts "Nao sao Multiplos"
-#   end
-# end
-# Number.is_multiple?
